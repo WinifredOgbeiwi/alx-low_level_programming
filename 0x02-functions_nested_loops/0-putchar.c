@@ -1,20 +1,18 @@
- 
-
- /*
- * File: 0-putchar.c 
+/*
+ * File: 0-putchar.c
  *
  */
 
- #include "main.h" 
+ #include "main.h"
 
- /** 
+ /**
  * main - print putchar followed by a new line
- * 
+ *
  *Return: Always 0
  */
-  int main(void) 
+  int main(void)
  {
-      _putchar('_' );
+      _putchar('_' ):
       _putchar ('p' );
       _putchar ('u' );
       _putchar ('t' );
@@ -23,6 +21,5 @@
       _putchar ('a' );
       _putchar ('r' );
       _putchar ('\n');
-      
        return (0) ;
 }
